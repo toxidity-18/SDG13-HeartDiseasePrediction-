@@ -1,6 +1,7 @@
  
 # 🌍 AI for SDG 3: Predicting Heart Disease Risk
 # [Project Pitch Deck](https://docs.google.com/presentation/d/1hrzZRQSiUhr4lIHOSQW1emOJc-K2s78f6DxZNtbSVrU/edit?slide=id.gc6f90357f_0_27#slide=id.gc6f90357f_0_27)
+![Heart Disease Prediction Result](images/image.png)
 
 ## 🎯 Project Overview
 This project uses a **Machine Learning model (Logistic Regression)** to predict the likelihood of heart disease using basic health indicators such as age, cholesterol, blood pressure, and heart rate.
@@ -18,7 +19,7 @@ It supports **UN Sustainable Development Goal 3: Good Health and Well-being**, b
 ---
 
 ## 📊 Dataset
-- **Source:** [Plotly Heart Disease Dataset (Kaggle)](https://raw.githubusercontent.com/plotly/datasets/master/heart.csv)
+- **Source:** : Using local dataset . 
 - **Features:** 13 clinical and demographic attributes  
 - **Target:** `target` (1 = has heart disease, 0 = healthy)
 

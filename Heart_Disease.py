@@ -10,9 +10,10 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-url = "https://raw.githubusercontent.com/krishnaik06/Heart-Disease-UCI-Dataset/master/heart.csv"
-data = pd.read_csv(url)
-print("✅ Dataset loaded successfully!\n")
+data = pd.read_csv("heart_disease.csv")
+print("✅ Local dataset loaded successfully!")
+print(data.head())
+
 
 # Step 2: Inspect the data
 print("Dataset Preview:\n", data.head())
